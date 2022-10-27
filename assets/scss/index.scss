@@ -1,15 +1,21 @@
 @import "variables";
 
+/*Navbar Styles*/
 .dfm-nav-link{
   color: white!important;
 }
-
 #dfm-custom-navbar{
   background-color: $dfm-primary-color;
   font-family: $dfm-primary-font;
   font-size: 2em;
 }
-
 #dfm-ccustom-navbar-menu-options{
   margin: auto;
+}
+
+/*Hero Styles*/
+#dfm-title-hero{
+  color: $dfm-primary-color;
+  font-family: $dfm-primary-font!important;
+  font-size: 5em;
 }

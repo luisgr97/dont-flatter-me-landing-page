@@ -1,3 +1,4 @@
+/*Navbar Styles*/
 .dfm-nav-link {
   color: white !important;
 }
@@ -10,6 +11,13 @@
 
 #dfm-ccustom-navbar-menu-options {
   margin: auto;
+}
+
+/*Hero Styles*/
+#dfm-title-hero {
+  color: #b1402f !important;
+  font-family: "Crimson Pro", serif !important;
+  font-size: 5em;
 }
 
 /*# sourceMappingURL=index.css.map */
