@@ -1,7 +1,12 @@
-@import "variables"
+@import "variables";
 
-/*Definition Style*/
+.dfm-nav-link{
+  color: white!important;
+}
+
+
 #dfm-custom-navbar{
   background-color: $dfm-primary-color;
-  color: white;
+  font-family: $dfm-primary-font;
+  font-size: 2em;
 }
