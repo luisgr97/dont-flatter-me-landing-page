@@ -16,6 +16,40 @@
 /*Hero Styles*/
 #dfm-title-hero{
   color: $dfm-primary-color;
+  font-family: $dfm-secondary-font!important;
+  font-size: 8em;
+}
+
+/*Spacer Style*/
+.dfm-spacer-section{
+  min-width: 25vw;
+  min-height: 25vh;
+}
+#dfm-spacer-section-with-backgrond-img{
+  padding: 0;
+  margin: 0;
+  min-width: 98vw;
+  background-image: url("/assets/images/fondo_flores.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Content type 1 Style*/
+#dfm-content-type-1{
+  min-width: 98vw;
+  background-color: $dfm-secondary-color;
+  padding: 0;
+  text-align: center;
+}
+#dfm-content-type-1-title{
+  font-family: $dfm-secondary-font!important;
+  font-size: 3em;
+  color: $dfm-primary-color;
+  padding: 2rem;
+}
+#dfm-content-type-1-paragraph{
   font-family: $dfm-primary-font!important;
-  font-size: 5em;
+  text-align: left;
+  font-size: 2em;
+  padding: 2rem;
 }

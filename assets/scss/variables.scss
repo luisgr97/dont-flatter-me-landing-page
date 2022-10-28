@@ -1,2 +1,18 @@
+/*Fonts*/
+@font-face {
+    font-family: "29LT Makina";
+    src :url("/assets/fonts/29LTMakinaFont/Typewriter-Black.otf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter-Black.ttf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.otf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.ttf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.otf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.ttf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter.otf"),
+    url("/assets/fonts/29LTMakinaFont/Typewriter.ttf");
+}
+
+/*Variables*/    
 $dfm-primary-color: #b1402f!important;
+$dfm-secondary-color:#f6d4b3;
 $dfm-primary-font: 'Crimson Pro', serif;
+$dfm-secondary-font: '29LT Makina', serif;
