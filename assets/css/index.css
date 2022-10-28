@@ -4,6 +4,8 @@
   src: url("/assets/fonts/29LTMakinaFont/Typewriter-Black.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Black.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter.ttf");
 }
 /*Variables*/
+/*Colors*/
+/*Fonts*/
 /*Navbar Styles*/
 .dfm-nav-link {
   color: white !important;
@@ -23,7 +25,13 @@
 #dfm-title-hero {
   color: #b1402f !important;
   font-family: "29LT Makina", serif !important;
-  font-size: 8em;
+  font-size: 10vw;
+}
+
+#dfm-sub-title-hero {
+  color: "29LT Makina", serif;
+  font-family: "Crimson Pro", serif !important;
+  font-size: 6vw;
 }
 
 /*Spacer Style*/
@@ -33,16 +41,18 @@
 }
 
 #dfm-spacer-section-with-backgrond-img {
+  z-index: 1;
+  position: relative;
+  top: -20px;
   padding: 0;
   margin: 0;
   min-width: 98vw;
-  background-image: url("/assets/images/fondo_flores.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 25vh;
 }
 
 /*Content type 1 Style*/
 #dfm-content-type-1 {
+  z-index: 2;
   min-width: 98vw;
   background-color: #f6d4b3;
   padding: 0;
@@ -61,6 +71,15 @@
   text-align: left;
   font-size: 2em;
   padding: 2rem;
+}
+
+#dfm-content-type-2 {
+  z-index: 2;
+  padding: 0;
+  min-width: 98vw;
+  text-align: center;
+  color: white;
+  background-color: #b1402f !important;
 }
 
 /*# sourceMappingURL=index.css.map */

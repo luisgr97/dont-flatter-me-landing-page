@@ -2,7 +2,7 @@
 
 /*Navbar Styles*/
 .dfm-nav-link{
-  color: white!important;
+  color: $dfm-third-color!important;
 }
 #dfm-custom-navbar{
   background-color: $dfm-primary-color;
@@ -17,7 +17,12 @@
 #dfm-title-hero{
   color: $dfm-primary-color;
   font-family: $dfm-secondary-font!important;
-  font-size: 8em;
+  font-size: 10vw;
+}
+#dfm-sub-title-hero{
+  color: $dfm-secondary-font;
+  font-family: $dfm-primary-font!important;
+  font-size: 6vw;
 }
 
 /*Spacer Style*/
@@ -26,16 +31,18 @@
   min-height: 25vh;
 }
 #dfm-spacer-section-with-backgrond-img{
+  z-index: 1;
+  position: relative;
+  top: -20px;
   padding: 0;
   margin: 0;
   min-width: 98vw;
-  background-image: url("/assets/images/fondo_flores.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 25vh;
 }
 
 /*Content type 1 Style*/
 #dfm-content-type-1{
+  z-index: 2;
   min-width: 98vw;
   background-color: $dfm-secondary-color;
   padding: 0;
@@ -52,4 +59,12 @@
   text-align: left;
   font-size: 2em;
   padding: 2rem;
+}
+#dfm-content-type-2{
+  z-index: 2;
+  padding: 0;
+  min-width: 98vw;
+  text-align: center;
+  color: $dfm-third-color;
+  background-color: $dfm-primary-color;
 }
