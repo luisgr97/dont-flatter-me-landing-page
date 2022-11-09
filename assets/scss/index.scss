@@ -36,14 +36,42 @@
   min-height: 70vw;
   min-width: 70vw;
 }
-
-#dfm-sub-title-hero {
-  color: $dfm-secondary-font;
-  font-family: $dfm-primary-font !important;
-  font-size: 6vw;
-  font-weight: bold;
+.dfm-component-image-cover-call-to-action-3{
+  object-fit: contain;
+  background: url('../images/dirigir.jpg') center / cover no-repeat ;
+  min-height: 70vw;
+  min-width: 70vw;
+  text-align: center;
+  color: #ffff;
+  background-color: rgb(246, 212, 179, 0.9);
+  background-blend-mode: overlay;
 }
-
+.dfm-component-image-cover-call-to-action-4{
+  object-fit: contain;
+  background: url('../images/esquema_proyecto.png') center / cover no-repeat ;
+  min-height: 80vw;
+  min-width: 80vw;
+}
+#dfm-hero-3-title{
+  position: relative;
+  top: 15vw;
+  bottom: 15vw;
+  font-size: 6em!important;
+}
+#dfm-hero-4-title{
+  font-size: 6em!important;
+}
+#dfm-hero-3-sub-title{
+  position: relative;
+  top: 15vw;
+  bottom: 15vw;
+  font-size: 6em!important;
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+#dfm-hero-4-sub-title{
+  font-size: 4em!important;
+  font-family: $dfm-primary-font;
+}
 /*----------------------------Spacer Style-----------------------------------------*/
 .dfm-spacer-section {
   min-width: 25vw;
@@ -76,7 +104,30 @@
   font-family: $dfm-primary-font;
   font-size: 2em;
 }
-#dfm-que-es-secction-title {
+#dfm-que-es-secction-2 {
+  z-index: 2;
+  padding: 2rem;
+  min-width: 98vw;
+  background-color: $dfm-primary-color;
+  text-align: center;
+  color: $dfm-third-color;
+  font-family: $dfm-primary-font;
+  font-size: 2em;
+}
+#dfm-que-es-secction-3{
+  z-index: 2;
+  padding: 2rem;
+  min-width: 98vw;
+  background-color: $dfm-fourt-color;
+  text-align: left;
+  color: $dfm-third-color;
+  font-family: $dfm-primary-font;
+  font-size: 2em;
+}
+#dfm-que-es-secction-4{
+  background-color: $dfm-third-color;
+}
+.dfm-que-es-secction-title {
   padding: 2rem;
   color: $dfm-primary-color;
   text-align: center;
@@ -84,34 +135,14 @@
   font-size: 2em;
   font-weight: bold;
 }
-
-#dfm-content-type-2 {
-  z-index: 2;
-  padding: 0;
-  min-width: 98vw;
+.dfm-que-es-secction-sub-title{
+  color: $dfm-secondary-font;
+  font-family: $dfm-secondary-font;
+  font-size: 6vw;
+  font-weight: bold;
+}
+#dfm-que-es-secction-3-sub-title{
+  font-size: 5vw!important;
   text-align: center;
-  color: $dfm-third-color;
-  background-color: $dfm-primary-color;
-}
-
-#dfm-content-type-3 {
-  padding: 0;
-  margin-top: 2rem;
-  // min-width: 98vw;
-  color: $dfm-third-color;
-  background-color: $dfm-fourt-color;
-}
-
-#dfm-content-type-3-un-order-list {
-  max-width: 70vw;
-  margin: auto;
-  font-size: 2em;
-  text-align: justify;
-}
-
-#dfm-content-type-4 {
-  padding: 0;
-  margin-top: 2rem;
-  // min-width: 98vw;
-  background-color: $dfm-third-color;
+  padding: 2rem;
 }
