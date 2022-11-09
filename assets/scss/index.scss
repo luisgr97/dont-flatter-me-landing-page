@@ -69,7 +69,7 @@
   text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 }
 #dfm-hero-4-sub-title{
-  font-size: 4em!important;
+  font-size: 3em!important;
   font-family: $dfm-primary-font;
 }
 /*----------------------------Spacer Style-----------------------------------------*/
@@ -145,4 +145,50 @@
   font-size: 5vw!important;
   text-align: center;
   padding: 2rem;
+}
+
+/*--------------Aliados Styles---------------------*/
+.dfm-container-aliado{
+  margin: 10px;
+}
+.dfm-container-info-aliado{
+  background-color: $dfm-primary-color;
+  color: $dfm-third-color;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-top-right-radius: 8%;
+  border-bottom-right-radius: 8%;
+}
+.dfm-aliados-name{
+  color: $dfm-secondary-color;
+  font-family: $dfm-secondary-font;
+  font-weight: bold;
+  font-size: 6vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+.dfm-aliados-description{
+  padding-right: 20%;
+  padding-bottom: 5%;
+  color: $dfm-third-color;
+  font-family: $dfm-third-font;
+  font-size: 4vh;
+}
+.dfm-container-img-aliado{
+  position: relative;
+  left: -10vw;
+  right: 10vw;
+  top: 5vh;
+  bottom: -5vh;
+  text-align: center;
+}
+.dfm-aliados-img-aliado{
+  object-fit: contain;
+  height: auto;
+  width: auto;
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 100%;
 }
