@@ -13,32 +13,31 @@
     <script src="assets/bootstrap/js/jquery-compress-production.js"></script>
     <script src="assets/bootstrap/js/jquery-un-compress.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <!--Google Fonts-->
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap">
-  </head>
+   </head>
   <body>
     <!--Navbar Section-->
     <header>
-      <nav class="navbar navbar-expand-lg" id="dfm-custom-navbar">
+      <nav class="dfm-custom-navbar navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"
-              id="dfm-ccustom-navbar-menu-options">
-              <li class="nav-item">
+            <ul class="navbar-nav col-12">
+              <li class="nav-item d-flex col">
                 <a class="dfm-nav-link nav-link active" aria-current="page"
-                  href="#dfm-content-type-1">¿Qué es?</a>
+                  href="#dfm-que-es-secction">¿Qué es?</a>
               </li>
-              <li class="nav-item">
-                <a class="dfm-nav-link nav-link" href="#">Nosotras</a>
+              <li class="nav-item col m-auto">
+                <a class="dfm-nav-link nav-link" href="#">Aliados</a>
               </li>
-              <li class="nav-item">
-                <a class="dfm-nav-link nav-link" href="#">Proyecto</a>
+              <li class="nav-item col m-auto">
+                <a class="dfm-nav-link nav-link" href="#">Sobre  mi</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item col m-auto">
+                <a class="dfm-nav-link nav-link" href="#">Talleres</a>
+              </li>
+              <li class="nav-item col m-auto">
                 <a class="dfm-nav-link nav-link" href="#">Galeria</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item col m-auto">
                 <a class="dfm-nav-link nav-link" href="#">Contacto</a>
               </li>
             </ul>
@@ -48,7 +47,7 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="dfm-nav-link nav-link active" aria-current="page"
-                href="#dfm-content-type-1">¿Qué es?</a>
+                href="#dfm-que-es-secction">¿Qué es?</a>
             </li>
             <li class="nav-item">
               <a class="dfm-nav-link nav-link" href="#">Nosotras</a>
@@ -64,7 +63,8 @@
             </li>
           </ul>
         </div>
-        <button class="dfm-nav-link navbar-toggler" type="button"
+        <button class="dfm-nav-link navbar-toggler" 
+          type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarToggleExternalContent"
           aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -73,19 +73,12 @@
         </button>
       </nav>
     </header>
-    <!--Hero 1 Section-->
-    <div class="d-flex min-vh-100" lc-helper="background"
-      style="background:url(assets/images/hero-image.png) center / cover
-      no-repeat; background-color:#444; background-blend-mode:
-      overlay; opacity: 0.8;">
-      <div class="align-self-center text-center text-light col-md-8
-        offset-md-2">
-        <div class="lc-block mb-4">
-          <div editable="rich">
-            <h1 class="display-1 fw-bolder" id="dfm-title-hero">NO ME PIROPEE</h1>
-          </div>
-        </div>
-        <div class="lc-block">
+    <!--Hero and Call to Action 1 Section-->
+    <div class="dfm-component-image-cover-call-to-action" lc-helper="background">  
+      <div class="lc-block">
+        <h1 class="dfm-component-title-hero-call-to-action">NO ME PIROPEE</h1>
+      </div>  
+      <div class="lc-block">
           <svg width="4em" height="4em" viewBox="0 0 16 16"
             class="text-light" fill="currentColor"
             xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon">
@@ -95,10 +88,10 @@
     </div>
     <!--Spacer Section-->
     <div class="container-lg dfm-spacer-section"></div>
-    <!--dfm-Content-type-1 Section-->
-    <div class="container-lg row-cols-lg-auto" id="dfm-content-type-1">
+    <!--Que es Section-->
+    <div class="container-lg row-cols-lg-auto" id="dfm-que-es-secction">
       <div class="container-lg col-lg-12">
-        <h1 id="dfm-content-type-1-title">¿Qué es "No me Piropee"?</h1>
+        <h1 id="dfm-que-es-secction-title">¿Qué es "No me Piropee"?</h1>
       </div>
       <div class="container-lg col-lg-12">
         <p id="dfm-content-type-1-paragraph">No me Piropee se realizó como una
@@ -110,24 +103,17 @@
           comunicación visual. </p>
       </div>
     </div>
-    <!--Spacer whit img Section-->
-    <div class="d-flex" lc-helper="background"
-      style="background:url(assets/images/fondo_flores.png) center / cover
-      no-repeat; background-blend-mode:
-      overlay;" id="dfm-spacer-section-with-backgrond-img"></div>
-    <!--Spacer whit img explaining Section-->
-    <div class="d-flex min-vh-100" lc-helper="background"
-      style="background:url(assets/images/Ilustración_con_texto.png) center /
-      cover
-      no-repeat; background-blend-mode:
-      overlay;"></div>
+    <!--Spacer Section-->
+    <div class="dfm-component-image-cover-spacer"></div>
+    <!--Hero and Call to Action 2 Section-->
+    <div class="dfm-component-image-cover-call-to-action-2" lc-helper="background"></div>
     <!--dfm-Content-type-2 Section-->
     <div class="container-lg row-cols-lg-auto" id="dfm-content-type-2">
       <p id="dfm-content-type-1-paragraph">Que los y las jóvenes sean más
         conscientes de este tipo de violencia y generen un espacio seguro en su
         ámbito escolar. </p>
     </div>
-    <!--Hero 1 Section-->
+    <!--Hero 2 Section-->
     <div class="d-flex min-vh-100" lc-helper="background"
       style="background:url(assets/images/dirigir.jpg) center / cover
       no-repeat; background-color:#444; background-blend-mode:
@@ -137,7 +123,8 @@
         <div class="lc-block mb-4">
           <div editable="rich">
             <h1 class="display-1 fw-bolder" id="dfm-title-hero">Dirigir</h1>
-            <h3 class="display-1 fw-bolder" id="dfm-sub-title-hero">¡Enfrenta tu miedpo!</h3>
+            <h3 class="display-1 fw-bolder" id="dfm-sub-title-hero">¡Enfrenta tu
+              miedpo!</h3>
           </div>
         </div>
         <div class="lc-block">
@@ -147,6 +134,32 @@
           </svg>
         </div>
       </div>
+    </div>
+    <!--dfm-Content-type-3 Section-->
+    <div class="container-lg row-cols-lg-auto" id="dfm-content-type-3">
+      <ul id="dfm-content-type-3-un-order-list">
+        <li>
+          Identificar el pensamiento, creencias de los jóvenes respecto a las
+          conductas que generan.
+        </li>
+        <li>
+          Reconocer las percepciones y conductas normalizadas en jóvenes y
+          adultos que incentiven el acoso callejero.
+        </li>
+        <li>
+          Diseñar un sistema de comunicación visual que sensibilice y promueva
+          el contexto actual del acoso callejero desde las generaciones más
+          jóvenes.
+        </li>
+      </ul>
+    </div>
+    <!--Spacer whit img 2 Section-->
+    <div class="row" id="dfm-content-type-4">
+    <h1 class="col-12" id="dfm-content-type-1-title">Metodología del proyecto</h1>
+    <div class="col-12 d-flex" lc-helper="background"
+      style="background:url(assets/images/esquema_proyecto.png) center / cover
+      no-repeat; background-blend-mode:
+      overlay;" id="dfm-spacer-section-with-backgrond-img"></div>
     </div>
   </body>
 </html>

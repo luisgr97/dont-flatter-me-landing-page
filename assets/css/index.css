@@ -1,43 +1,74 @@
-/*Fonts*/
+@charset "UTF-8";
+/*-----------------------------------Fonts-----------------------------------------------*/
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+/*custom font*/
 @font-face {
   font-family: "29LT Makina";
   src: url("/assets/fonts/29LTMakinaFont/Typewriter-Black.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Black.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Bold.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter-Thin.ttf"), url("/assets/fonts/29LTMakinaFont/Typewriter.otf"), url("/assets/fonts/29LTMakinaFont/Typewriter.ttf");
 }
-/*Variables*/
+/*----------------------------------Variables--------------------------------------------*/
 /*Colors*/
 /*Fonts*/
-/*Navbar Styles*/
+/*---------------------------Navbar Styles-----------------------------------------------------*/
+.dfm-custom-navbar {
+  background-color: #b1402f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  margin: auto;
+}
+
 .dfm-nav-link {
   color: white !important;
 }
 
-#dfm-custom-navbar {
-  background-color: #b1402f !important;
-  font-family: "Crimson Pro", serif;
-  font-size: 2em;
+/*---------------------Hero 'No me piropee' Styles--------------------------------------------*/
+.dfm-component-image-cover-call-to-action {
+  object-fit: contain;
+  min-height: 150vw;
+  min-width: 100vw;
+  background: url("../images/hero-image.png") center/cover no-repeat;
+  background-color: rgba(246, 212, 179, 0.5);
+  background-blend-mode: overlay;
 }
 
-#dfm-ccustom-navbar-menu-options {
-  margin: auto;
+.dfm-component-title-hero-call-to-action {
+  position: relative;
+  top: 50vw;
+  align-content: center;
+  text-align: center;
+  text-overflow: inherit;
+  font-size: 12vw;
+  font-family: "29LT Makina", serif;
+  color: #b1402f;
 }
 
-/*Hero Styles*/
-#dfm-title-hero {
-  color: #b1402f !important;
-  font-family: "29LT Makina", serif !important;
-  font-size: 10vw;
+.dfm-component-image-cover-call-to-action-2 {
+  object-fit: contain;
+  background: url("../images/Ilustración_con_texto.png") center/cover no-repeat;
+  min-height: 70vw;
+  min-width: 70vw;
 }
 
 #dfm-sub-title-hero {
   color: "29LT Makina", serif;
-  font-family: "Crimson Pro", serif !important;
+  font-family: "Open Sans", sans-serif !important;
   font-size: 6vw;
+  font-weight: bold;
 }
 
-/*Spacer Style*/
+/*----------------------------Spacer Style-----------------------------------------*/
 .dfm-spacer-section {
   min-width: 25vw;
   min-height: 25vh;
+}
+
+.dfm-component-image-cover-spacer {
+  object-fit: contain;
+  min-width: 25vw;
+  min-height: 25vh;
+  background: url("../images/fondo_flores.png") center/cover no-repeat;
+  background-blend-mode: overlay;
 }
 
 #dfm-spacer-section-with-backgrond-img {
@@ -50,27 +81,24 @@
   min-height: 25vh;
 }
 
-/*Content type 1 Style*/
-#dfm-content-type-1 {
+/*-------------------------------------Que es Style---------------------------------------*/
+#dfm-que-es-secction {
   z-index: 2;
+  padding: 2rem;
   min-width: 98vw;
   background-color: #f6d4b3;
-  padding: 0;
-  text-align: center;
-}
-
-#dfm-content-type-1-title {
-  font-family: "29LT Makina", serif !important;
-  font-size: 3em;
-  color: #b1402f !important;
-  padding: 2rem;
-}
-
-#dfm-content-type-1-paragraph {
-  font-family: "Crimson Pro", serif !important;
   text-align: left;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
+}
+
+#dfm-que-es-secction-title {
   padding: 2rem;
+  color: #b1402f;
+  text-align: center;
+  font-family: "29LT Makina", serif;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #dfm-content-type-2 {
@@ -79,7 +107,27 @@
   min-width: 98vw;
   text-align: center;
   color: white;
-  background-color: #b1402f !important;
+  background-color: #b1402f;
+}
+
+#dfm-content-type-3 {
+  padding: 0;
+  margin-top: 2rem;
+  color: white;
+  background-color: #bd6a44;
+}
+
+#dfm-content-type-3-un-order-list {
+  max-width: 70vw;
+  margin: auto;
+  font-size: 2em;
+  text-align: justify;
+}
+
+#dfm-content-type-4 {
+  padding: 0;
+  margin-top: 2rem;
+  background-color: white;
 }
 
 /*# sourceMappingURL=index.css.map */
