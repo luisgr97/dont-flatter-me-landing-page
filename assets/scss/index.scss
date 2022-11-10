@@ -192,3 +192,33 @@
   max-height: 80%;
   border-radius: 100%;
 }
+
+/*-------------------------Sobre mi Section---------------------------*/
+.dfm-sobre-mi-secction-img-container{
+  min-width: 20vw;
+  min-height: 20vh;
+}
+.dfm-sobre-mi-secction-img{
+  object-fit: contain;
+  height: auto;
+  width: auto;
+  margin: auto;
+  max-width: 40%;
+  max-height: 20%;
+}
+.dfm-sobre-mi-secction-info{
+  color: $dfm-primary-color;
+  font-family: $dfm-third-font;
+  font-size: 2rem;
+  text-align: justify; 
+}
+/*-----------------------Talleres Section--------------------------------------*/
+#dfm-talleres-secction {
+  z-index: 2;
+  padding: 2rem;
+  min-width: 98vw;
+  background-color: $dfm-secondary-color;
+  text-align: left;
+  font-family: $dfm-primary-font;
+  font-size: 2em;
+}
