@@ -1,6 +1,15 @@
 @import "variables";
 
+body, html{ margin:0; padding:0;}
+
 /*---------------------------Navbar Styles-----------------------------------------------------*/
+#fixmenu{
+  position:fixed;
+  overflow:scroll;
+  z-index: 3;
+  top:0;
+  margin-top: 0;
+}
 .dfm-custom-navbar {
   background-color: $dfm-primary-color;
   font-family: $dfm-primary-font;
