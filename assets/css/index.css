@@ -272,4 +272,79 @@ body, html {
   font-size: 2em;
 }
 
+.dfm-container-img-talleres {
+  background-color: #f6d4b3;
+  text-align: center;
+}
+
+.dfm-container-img {
+  position: relative;
+  right: 17%;
+  left: -10%;
+  top: 10%;
+  bottom: -10%;
+  height: auto;
+  width: 100%;
+}
+
+.dfm-titulo-taller {
+  font-family: "29LT Makina", serif;
+  font-size: 3em;
+  text-align: left;
+  color: #b1402f;
+}
+
+.dfm-sub-titulo-taller {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  color: #b1402f;
+}
+
+.dfm-paragraph-taller {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: left;
+  color: #b1402f;
+}
+
+#dfm-talleres-explainer {
+  z-index: 2;
+  padding: 2rem;
+  min-width: 98vw;
+  background-color: #b1402f;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+}
+
+/*------------------------------------------ Galeria Secction -------------------------------------*/
+.dfm-container-carousel {
+  margin: auto;
+  height: auto;
+  max-width: 70%;
+  max-height: 100%;
+  padding: 2em;
+}
+
+.dfm-caroulsel-indicator {
+  text-align: center;
+  background-color: #bd6a44;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  color: white;
+  max-height: 50px;
+  min-height: 50px;
+  max-width: 200px;
+}
+
+#dfm-galery {
+  background-color: #f6d4b3;
+  padding: 8%;
+}
+
 /*# sourceMappingURL=index.css.map */
