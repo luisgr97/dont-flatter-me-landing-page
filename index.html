@@ -10,6 +10,7 @@
     <script src="js/index.js"></script>
     <!--Bootstrap-->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icons/icofont/icofont.min.css">
     <script src="assets/bootstrap/js/jquery-compress-production.js"></script>
     <script src="assets/bootstrap/js/jquery-un-compress.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
@@ -18,7 +19,7 @@
   <body>
     <!--Navbar Section-->
     <header>
-      <nav class="dfm-custom-navbar fixed-top navbar navbar-expand-lg">
+      <nav class="dfm-custom-navbar navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav col-12">
@@ -40,7 +41,7 @@
                 <a class="dfm-nav-link nav-link" href="#dfm-galery">Galeria</a>
               </li>
               <li class="nav-item col m-auto">
-                <a class="dfm-nav-link nav-link" href="#">Contacto</a>
+                <a class="dfm-nav-link nav-link" href="#dfm-contact-section">Contacto</a>
               </li>
             </ul>
           </div>
@@ -64,6 +65,9 @@
             <li class="nav-item">
               <a class="dfm-nav-link nav-link" href="#dfm-galery">Galeria</a>
             </li>
+            <li class="nav-item">
+              <a class="dfm-nav-link nav-link" href="#dfm-contact-section">Contacto</a>
+            </li>
           </ul>
         </div>
         <button class="dfm-nav-link navbar-toggler"
@@ -77,17 +81,9 @@
       </nav>
     </header>
     <!--Hero and Call to Action 1 Section-->
-    <div class="dfm-component-image-cover-call-to-action"
-      lc-helper="background">
-      <div class="lc-block">
+    <div class="dfm-component-image-cover-call-to-action">
         <h1 class="dfm-component-title-hero-call-to-action">NO ME PIROPEE</h1>
-      </div>
-      <div class="lc-block">
-        <svg width="4em" height="4em" viewBox="0 0 16 16"
-          class="text-light" fill="currentColor"
-          xmlns="http://www.w3.org/2000/svg" lc-helper="svg-icon">
-        </svg>
-      </div>
+        <h3 class="dfm-component-sub-title-hero-call-to-action">Rompe el silencio ...</h3>
     </div>
   </div>
   <!--Spacer Section-->
@@ -110,19 +106,17 @@
   <!--Spacer Section-->
   <div class="dfm-component-image-cover-spacer"></div>
   <!--Hero and Call to Action 2 Section-->
-  <div class="dfm-component-image-cover-call-to-action-2"
-    lc-helper="background"></div>
+  <div class="dfm-component-image-cover-call-to-action-2"></div>
   <!--Que es Section 2-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-que-es-secction-2">
+  <div class="container" id="dfm-que-es-secction-2">
     <p>
       Que los y las jóvenes sean más conscientes de este tipo de violencia y
       generen un espacio seguro en su ámbito escolar.
     </p>
   </div>
   <!--Hero and Call to Action 3 Section-->
-  <div class="dfm-component-image-cover-call-to-action-3"
-    lc-helper="background">
-    <div class="container-lg col-lg-12">
+  <div class="dfm-component-image-cover-call-to-action-3">
+    <div class="container">
       <h1 class="dfm-que-es-secction-title" id="dfm-hero-3-title">Dirigir</h1>
       <h3 class="dfm-que-es-secction-sub-title" id="dfm-hero-3-sub-title">¡Enfrenta
         tu miedo!</h3>
@@ -131,11 +125,8 @@
   <!--Spacer Section-->
   <div class="dfm-component-image-cover-spacer"></div>
   <!--Que es Section 3-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-que-es-secction-3">
-    <div class="container-lg col-lg-12">
-      <h3 class="dfm-que-es-secction-sub-title"
-        id="dfm-que-es-secction-3-sub-title">Objetivos del Projecto de Grado</h3>
-    </div>
+  <div class="container d-block" id="dfm-que-es-secction-3">
+    <h3 class="dfm-que-es-secction-sub-title" id="dfm-que-es-secction-3-sub-title">Objetivos del Projecto de Grado</h3>
     <ul>
       <li>
         Identificar el pensamiento, creencias de los jóvenes respecto a las
@@ -153,18 +144,15 @@
     </ul>
   </div>
   <!--Hero and Call to Action 4 Section-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-que-es-secction-4">
-    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Metodología del
-      Proyecto</h1>
-    <div class="dfm-component-image-cover-call-to-action-4"
-      lc-helper="background"></div>
-    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-sub-title">¡Lee aquí el
-      Proyecto completo!</h1>
+  <div class="container" id="dfm-que-es-secction-4">
+    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Metodología del Proyecto</h1>
+    <div class="dfm-component-image-cover-call-to-action-4"></div>
+    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-sub-title">¡Lee aquí el Proyecto completo!</h1>
   </div>
   <!--Aliados Section-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-aliados-secction">
-    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Aliados</h1>
-    <div class="container-lg row dfm-container-aliado">
+  <div class="container" id="dfm-aliados-secction">
+    <h1 class="dfm-que-es-secction-title m-auto" id="dfm-hero-4-title">Aliados</h1>
+    <div class="container row mb-5 mt-5">
       <div class="col-8 dfm-container-info-aliado">
         <h3 class="dfm-aliados-name">Angelica Lopez - A. Experta</h3>
         <p class="dfm-aliados-description">Trabajadora Social , Mg En Derechos
@@ -177,7 +165,7 @@
         <img class="dfm-aliados-img-aliado" src="./assets/images/angelica.jpg"/>
       </div>
     </div>
-    <div class="container-lg row dfm-container-aliado">
+    <div class="container row mb-5 mt-5">
       <div class="col-8 dfm-container-info-aliado">
         <h3 class="dfm-aliados-name">I.E. Técnico Comercial Hernando Navia</h3>
         <p class="dfm-aliados-description">Colegio Ubicado en la comuna 12 de la
@@ -190,12 +178,11 @@
     </div>
   </div>
   <!--Sobre mi Section-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-sobre-mi-secction">
-    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Sobre mi</h1>
-    <div class="container row d-flex">
+  <div class="container m-auto" id="dfm-sobre-mi-secction">
+    <div class="container row d-flex m-auto">
+      <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Sobre mi</h1>
       <div class="dfm-sobre-mi-secction-img-container m-auto d-flex p-5">
-        <img class="dfm-sobre-mi-secction-img"
-          src="./assets/images/camila.jpg"/>
+        <img class="dfm-sobre-mi-secction-img" src="./assets/images/camila.jpg"/>
       </div>
       <div class="col-12">
         <p class="dfm-sobre-mi-secction-info">
@@ -217,70 +204,59 @@
     </div>
   </div>
   <!--Talleres Section-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-talleres-secction">
-    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Talleres
-      Realizados</h1>
-    <div class="container-lg col-lg-12">
+  <div class="container" id="dfm-talleres-secction">
+    <h1 class="dfm-que-es-secction-title" id="dfm-hero-4-title">Talleres Realizados</h1>
+    <div class="container">
       <p>
         Para llevar a cabo este proyecto, se realizaron 4 talleres en la
-        institución educativa,
-        cada uno con una objetivo diferente que da como resultado una pieza
-        hecha por los estudiantes
-        que permitieron el desarrollo del libro físico donde se recopila todo lo
-        trabajado anteriormente
-        donde además de hablar de ASC también se relatan historiales reales y
-        personales de los y las
-        jóvenes en diferentes contextos incluyendo el escolar (abajo la
-        descripción).</p>
+        institución educativa, cada uno con una objetivo diferente que da
+        como resultado una pieza hecha por los estudiantes que permitieron
+        el desarrollo del libro físico donde se recopila todo lo trabajado
+        anteriormente donde además de hablar de ASC también se relatan
+        historiales reales y personales de los y las jóvenes en diferentes
+        contextos incluyendo el escolar (abajo la descripción).
+      </p>
     </div>
   </div>
   <!--Taller 1 Section-->
-  <div class="container-lg row p-5">
-    <div class="col-6 dfm-container-img-talleres d-flex">
-      <img class="dfm-container-img" src="./assets/images/taller-1/1.jpg"
-        alt="">
+  <div class="container row m-auto p-5">
+    <div class="col-5 dfm-container-img-talleres">
+      <img class="dfm-container-img" src="./assets/images/taller-1/1.jpg" alt="">
     </div>
-    <div class="col-6 text-center p-5">
+    <div class="col-5 text-center p-5">
       <h1 class="dfm-titulo-taller">Taller 1:</h1>
       <h3 class="dfm-sub-titulo-taller">Conocer sobre el acoso</h3>
       <p class="dfm-paragraph-taller">
         Se habló sobre qué es el acoso, se conoció qué consideraban los y las
-        estudiantes
-        como acoso y se trabajaron las condiciones del contexto. Este taller dió
-        como resultado
-        piezas de collage.
+        estudiantes como acoso y se trabajaron las condiciones del contexto.
+        Este taller dió como resultado piezas de collage.
       </p>
     </div>
   </div>
   <!--Taller 2 Section-->
-  <div class="container-lg d-flex row p-5">
-    <div class="col-6 m-auto p-5">
+  <div class="container row m-auto p-5">
+    <div class="col-6 text-center p-5">
       <h1 class="dfm-titulo-taller">Taller 2:</h1>
-      <h3 class="dfm-sub-titulo-taller">Identificar las percepciones usuales
-        sobre el acoso callejero
-        y sus contextos cotidianos</h3>
+      <h3 class="dfm-sub-titulo-taller">Identificar las percepciones usuales sobre el acoso callejero y sus contextos cotidianos</h3>
       <p class="dfm-paragraph-taller">
-        Entender qué es la percepción, cómo lo viven las víctimas (en este caso
-        los y las estudiantes)
-        y reconocer cuando están siendo acosados/as. En este taller
-        desarrollaron historietas que ayudaron
-        a la realización de gifs, los cuales narraban situaciones de su vida
-        cotidiana en diferentes contextos
+        Entender qué es la percepción, cómo lo viven las víctimas (en este caso los y las estudiantes) y
+        reconocer cuando están siendo acosados/as. En este taller desarrollaron historietas que ayudaron
+        a la realización de gifs, los cuales narraban situaciones de su vida cotidiana en diferentes contextos
         donde han sido vulnerados y vulneradas.
       </p>
     </div>
-    <div class="col-6 dfm-container-img-talleres text-center d-flex">
+    <div class="col-5 dfm-container-img-talleres">
       <img class="dfm-container-img" src="./assets/images/taller-2/3.jpg"
         alt="">
     </div>
   </div>
   <!--Taller 3 Section-->
-  <div class="container-lg d-flex row p-5 text-center">
-    <div class="col-6 dfm-container-img-talleres d-flex">
+  <div class="container row m-auto p-5">
+    <div class="col-5 dfm-container-img-talleres">
       <img class="dfm-container-img" src="./assets/images/taller-3/2.jpg"
         alt="">
     </div>
-    <div class="col-6 m-auto p-5">
+    <div class="col-6 text-center p-5">
       <h1 class="dfm-titulo-taller">Taller 3:</h1>
       <h3 class="dfm-sub-titulo-taller">Sensibilizar a las y los participantes
         sobre los efectos del acoso,
@@ -299,8 +275,8 @@
     </div>
   </div>
   <!--Tallere 4 Section-->
-  <div class="container-lg d-flex row p-5 text-center">
-    <div class="col-6 m-auto p-5">
+  <div class="container row m-auto p-5">
+    <div class="col-6 text-center p-5">
       <h1 class="dfm-titulo-taller">Taller 4:</h1>
       <h3 class="dfm-sub-titulo-taller">Promover un compromiso final
         y finalmente entender y reconocer el acoso sexual callejero.</h3>
@@ -312,23 +288,21 @@
         sus sentimientos respecto a esta problemática.
       </p>
     </div>
-    <div class="col-6 dfm-container-img-talleres d-flex">
+    <div class="col-5 dfm-container-img-talleres">
       <img class="dfm-container-img" src="./assets/images/taller-4/1.jpg"
         alt="">
     </div>
   </div>
   <!--Talleres explain-->
-  <div class="container-lg row-cols-lg-auto" id="dfm-talleres-explainer"
-    style="margin-top: 50px;">
+  <div class="container" id="dfm-talleres-explainer">
     <p>
       La realización de las piezas fueron anónimas para proteger la identidad de
-      los y las estudiantes,
-      teniendo siempre su autorización para mostrar cada proceso.
+      los y las estudiantes, teniendo siempre su autorización para mostrar cada proceso.
     </p>
   </div>
   <!--Galeria explain-->
   <div class="conainter" id="dfm-galery">
-    <div class="row" id="dfm-galery">
+    <div class="row">
       <div class="col-6 d-block">
         <div class="row d-flex">
           <div class="continer dfm-container-carousel">
@@ -412,7 +386,7 @@
           </div>
         </div>
         <div class="row">
-          <span class="m-auto text-center dfm-caroulsel-indicator"> Taller 1</span>
+          <span class="dfm-caroulsel-indicator"> Taller 1</span>
         </div>
       </div>
       <div class="col-6 d-block">
@@ -715,7 +689,48 @@
           </div>
         </div>
       </div>
-
-
-    </body>
-  </html>
+    </div>
+  </div>
+  <!-----------------contactos Section------------------------------------>
+  <div class="container p-5" id="dfm-contact-section">
+    <div class="row">
+      <div class="col-5 m-2">
+        <h3 class="dfm-contact-title m-3">CONTACTO</h3>
+        <ul class="dfm-list-item-contacts">
+          <li>
+            <i class="icofont-phone-circle">
+              Camila: +57 321 7867171
+              Angélica: +57 322 5195228</i>
+            </li>
+          <li>
+            <i class="icofont-email"> camilaqg@javerianacali.edu.co</i>
+          </li>
+          <li>
+            <i class="icofont-location-pin">Corporación Floreciendo - Cali</i>
+          </li>
+        </ul>
+      </div>
+      <div class="col-5">
+        <h3 class="dfm-contact-title m-3">REDES SOCIALES</h3>
+        <ul>
+          <li>
+            <i class="icofont-instagram">
+              https://www.instagram.com/diseno_cqg/
+            </i>
+          </li>
+          <li>
+            <i class="icofont-instagram">
+              https://www.instagram.com/corporacionfloreciendomscp/
+            </i>
+          </li>
+          <li>
+            <i class="icofont-behance">
+              https://www.behance.net/camilaquinterog
+            </i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
