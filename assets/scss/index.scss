@@ -1,6 +1,10 @@
 @import "variables";
 
-body, html{ margin:0; padding:0;}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
 /*---------------------------Navbar Styles-----------------------------------------------------*/
 .dfm-custom-navbar {
@@ -9,18 +13,21 @@ body, html{ margin:0; padding:0;}
   font-size: 2em;
   margin: auto;
 }
+
 .dfm-nav-link {
   color: $dfm-third-color !important;
 }
+
 /*---------------------Hero 'No me piropee' Styles--------------------------------------------*/
 .dfm-component-image-cover-call-to-action {
   object-fit: contain;
   min-height: 300vh;
   min-width: 100vw;
-  background: url('../images/hero-image.png') center / cover no-repeat ;
-  background-color: rgb(246, 212, 179, 0.5);
+  background: url('../images/hero-image.png') center / cover no-repeat;
+  background-color: rgb(246, 212, 179, 0.4);
   background-blend-mode: overlay;
 }
+
 .dfm-component-title-hero-call-to-action {
   position: relative;
   top: 100vh;
@@ -30,52 +37,67 @@ body, html{ margin:0; padding:0;}
   text-overflow: inherit;
   font-size: 12vw;
   font-family: $dfm-secondary-font;
+  font-weight: bold;
   color: $dfm-primary-color;
 }
-.dfm-component-sub-title-hero-call-to-action{
+
+.dfm-component-sub-title-hero-call-to-action {
   position: relative;
-  top: 110vh;
-  bottom: -110vh;
+  top: 97vh;
+  bottom: -97vh;
   align-content: center;
   text-align: center;
   text-overflow: inherit;
   font-size: 10vw;
   font-family: $dfm-primary-font;
   font-weight: bold;
-  color: $dfm-fourt-color;
+  color: $dfm-secondary-color ;
+  //-webkit-text-stroke: white;
+  text-shadow:
+    -1px -1px 0px $dfm-five-color,
+    1px -1px 0px $dfm-five-color,
+    -1px 1px 0px $dfm-five-color ,
+    1px 1px 0px $dfm-five-color,
+    2px 2px 3px $dfm-five-color ,
+    3px 3px 2px $dfm-five-color ;
 }
+
 /*----------------------------Spacer 1 Style-----------------------------------------*/
 .dfm-spacer-section {
   min-width: 25vw;
   min-height: 25vh;
 }
+
 /*-------------------------------------Que es Style---------------------------------------*/
 #dfm-que-es-secction {
   z-index: 2;
   padding: 2rem;
   min-width: 100vw;
   background-color: $dfm-secondary-color;
-  text-align: left;
+  text-align: justify;
   font-family: $dfm-primary-font;
   font-size: 1.5em;
   font-weight: lighter;
   color: black;
 }
+
 /*----------------------------Spacer 2 Style-----------------------------------------*/
 .dfm-component-image-cover-spacer {
   object-fit: contain;
   min-width: 25vw;
-  min-height: 25vh; 
-  background: url('../images/fondo_flores.png') center / cover no-repeat ;
+  min-height: 25vh;
+  background: url('../images/fondo_flores.png') center / cover no-repeat;
   background-blend-mode: overlay;
 }
+
 /*----------------------------Hero 2 Style-----------------------------------------*/
 .dfm-component-image-cover-call-to-action-2 {
   object-fit: contain;
-  background: url('../images/Ilustración_con_texto.png') center / cover no-repeat ;
+  background: url('../images/Ilustración_con_texto.png') center / cover no-repeat;
   min-height: 100vh;
   min-width: 90vw;
 }
+
 /*-------------------------------------Que es 2 Style---------------------------------------*/
 #dfm-que-es-secction-2 {
   padding: 1rem;
@@ -86,9 +108,10 @@ body, html{ margin:0; padding:0;}
   font-family: $dfm-primary-font;
   font-size: 1.2em;
 }
-.dfm-component-image-cover-call-to-action-3{
+
+.dfm-component-image-cover-call-to-action-3 {
   object-fit: contain;
-  background: url('../images/dirigir.jpg') center / cover no-repeat ;
+  background: url('../images/dirigir.jpg') center / cover no-repeat;
   min-height: 100vh;
   min-width: 100vw;
   background-color: rgb(246, 212, 179, 0.9);
@@ -96,6 +119,7 @@ body, html{ margin:0; padding:0;}
   text-align: center;
   color: #ffff;
 }
+
 .dfm-que-es-secction-title {
   margin: 1rem;
   text-align: center;
@@ -104,13 +128,15 @@ body, html{ margin:0; padding:0;}
   font-weight: bold;
   color: $dfm-primary-color;
 }
-#dfm-hero-3-title{
+
+#dfm-hero-3-title {
   position: relative;
   top: 30vh;
   bottom: -30vh;
-  font-size: 6em!important;
+  font-size: 6em !important;
 }
-.dfm-que-es-secction-sub-title{
+
+.dfm-que-es-secction-sub-title {
   position: relative;
   top: 30vh;
   bottom: -30vh;
@@ -119,11 +145,13 @@ body, html{ margin:0; padding:0;}
   font-weight: bold;
   color: $dfm-fourt-color;
 }
-#dfm-hero-3-sub-title{
+
+#dfm-hero-3-sub-title {
   position: relative;
 }
+
 /*-------------------------------------Que es 3 Style---------------------------------------*/
-#dfm-que-es-secction-3{
+#dfm-que-es-secction-3 {
   padding: 1rem;
   min-width: 100vw;
   background-color: $dfm-fourt-color;
@@ -133,94 +161,115 @@ body, html{ margin:0; padding:0;}
   font-size: 1.2em;
   color: $dfm-third-color;
 }
-#dfm-que-es-secction-3-sub-title{
+
+#dfm-que-es-secction-3-sub-title {
   top: 0;
   bottom: 0;
   text-align: center;
-  font-size: 2rem!important;
+  font-size: 2rem !important;
   color: $dfm-secondary-color ;
 }
-#dfm-que-es-secction-4{
+
+#dfm-que-es-secction-4 {
   background-color: $dfm-third-color;
 }
-#dfm-hero-4-title{
-  font-size: 3em!important;
+
+#dfm-hero-4-title {
+  font-size: 3em !important;
+  margin-top: 8% !important;
 }
-.dfm-component-image-cover-call-to-action-4{
+
+.dfm-component-image-cover-call-to-action-4 {
   object-fit: contain;
-  background: url('../images/esquema_proyecto.png') center / cover no-repeat ;
+  background: url('../images/esquema_proyecto.png') center / cover no-repeat;
   min-height: 100vh;
   min-width: 80vw;
 }
-#dfm-hero-4-sub-title{
-  font-size: 1.5em!important;
+
+#dfm-hero-4-sub-title {
+  font-size: 1.5em !important;
   font-family: $dfm-primary-font;
   margin: 1rem;
 }
+
 /*----------------Aliados Secction------------------------------*/
-#dfm-aliados-secction{ 
+#dfm-aliados-secction {
   margin: 1rem;
   padding: 0;
 }
-.dfm-container-info-aliado{
+
+.dfm-container-info-aliado {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 2rem;
   padding-left: 0;
   padding-right: 0;
   background-color: $dfm-primary-color;
-  border-top-right-radius: 8%;
-  border-bottom-right-radius: 8%;
+  border-top-right-radius: 24%;
+  border-bottom-right-radius: 24%;
   color: $dfm-third-color;
+  text-align: justify;
 }
-.dfm-aliados-name{
-  padding: 1rem;
+
+.dfm-aliados-name {
+  padding: 2% 15%;
   font-family: $dfm-secondary-font;
   font-weight: bold;
   font-size: 1.5rem;
   color: $dfm-secondary-color;
 }
-.dfm-aliados-description{
+
+.dfm-aliados-description {
   color: $dfm-third-color;
   font-family: $dfm-primary-font;
   font-weight: lighter;
   font-size: 1.2rem;
+  padding: 1% 15%;
 }
-.dfm-container-img-aliado{
+
+.dfm-container-img-aliado {
   position: relative;
-  left: -3vw;
-  right: 10vw;
+  left: -13vw;
+  right: 13vw;
+  bottom: -2vh;
+  top: 2vh;
   text-align: center;
 }
-.dfm-aliados-img-aliado{
+
+.dfm-aliados-img-aliado {
   object-fit: contain;
   margin: auto;
   max-height: auto;
   max-width: 90%;
   border-radius: 100%;
 }
+
 /*-------------------------Sobre mi Section---------------------------*/
-#dfm-sobre-mi-secction{
+#dfm-sobre-mi-secction {
   margin: 1rem;
   display: flex;
   text-align: center;
 }
-.dfm-sobre-mi-secction-img-container{
+
+.dfm-sobre-mi-secction-img-container {
   max-height: 50vh;
   max-width: 50vw;
 }
-.dfm-sobre-mi-secction-img{
+
+.dfm-sobre-mi-secction-img {
   object-fit: contain;
   margin: 1rem auto;
   max-height: auto;
   max-width: 100%;
 }
-.dfm-sobre-mi-secction-info{
+
+.dfm-sobre-mi-secction-info {
   font-family: $dfm-secondary-font;
   font-size: 1.2rem;
-  text-align: justify; 
+  text-align: justify;
   color: $dfm-primary-color;
 }
+
 /*-----------------------Talleres Section--------------------------------------*/
 #dfm-talleres-secction {
   padding: 1rem;
@@ -231,36 +280,41 @@ body, html{ margin:0; padding:0;}
   font-family: $dfm-primary-font;
   font-size: 1.2em;
 }
-.dfm-container-img{
+
+.dfm-container-img {
   position: relative;
   max-height: auto;
   max-width: 100%;
-  top:10%;
+  top: 10%;
   bottom: -10%;
   right: 17%;
   left: -17%;
 }
-.dfm-container-img-talleres{
+
+.dfm-container-img-talleres {
   display: flex;
   margin: 1rem;
   background-color: $dfm-secondary-color;
   text-align: justify;
 }
-.dfm-titulo-taller{
-  text-align: left; 
+
+.dfm-titulo-taller {
+  text-align: left;
   color: $dfm-primary-color;
   font-family: $dfm-secondary-font;
   font-size: 3rem;
   font-weight: bold;
 }
-.dfm-sub-titulo-taller{
+
+.dfm-sub-titulo-taller {
   text-align: left;
   color: $dfm-primary-color;
   font-family: $dfm-primary-font;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: lighter;
 }
-.dfm-paragraph-taller{
+
+.dfm-paragraph-taller {
   padding: 0;
   margin: 0;
   text-align: justify;
@@ -269,7 +323,8 @@ body, html{ margin:0; padding:0;}
   font-size: 1.2rem;
   font-weight: lighter;
 }
-#dfm-talleres-explainer{ 
+
+#dfm-talleres-explainer {
   padding: 1rem;
   margin-top: 3rem;
   min-width: 100vw;
@@ -279,17 +334,20 @@ body, html{ margin:0; padding:0;}
   font-family: $dfm-primary-font;
   font-size: 1.5rem;
 }
+
 /*------------------------------------------ Galeria Secction -------------------------------------*/
-#dfm-galery{
+#dfm-galery {
   padding: 1rem;
   background-color: $dfm-secondary-color;
 }
-.dfm-container-carousel{
+
+.dfm-container-carousel {
   padding: 2rem;
   max-height: auto;
   max-width: 100%;
 }
-.dfm-caroulsel-indicator{
+
+.dfm-caroulsel-indicator {
   padding: 0.5rem;
   margin: auto;
   text-align: center;
@@ -299,8 +357,9 @@ body, html{ margin:0; padding:0;}
   font-weight: lighter;
   font-size: 2rem;
 }
+
 /* -----------------------Contact Section--------------------------------------------*/
-#dfm-contact-section{
+#dfm-contact-section {
   min-width: 100vw;
   background-color: $dfm-primary-color;
   font-family: $dfm-primary-font;
@@ -308,12 +367,25 @@ body, html{ margin:0; padding:0;}
   font-size: 1.2em;
   color: $dfm-third-color;
 }
-.dfm-contact-title{
+
+.dfm-contact-title {
   font-family: $dfm-primary-font;
   font-weight: bold;
   font-size: 2rem;
   color: $dfm-third-color;
 }
-.dfm-list-item-contacts{
-   list-style:none;
+
+.dfm-list-item-contacts {
+  list-style: none;
+}
+
+A:hover {
+  color: black;
+  font-family: arial;
+  text-decoration: none
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
 }

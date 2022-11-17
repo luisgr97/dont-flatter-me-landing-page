@@ -1,6 +1,7 @@
 /*-----------------------------------Fonts-----------------------------------------------*/
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Signika+Negative:wght@300;400&display=swap');
 
 /*custom font*/
 @font-face {
@@ -21,7 +22,9 @@ $dfm-primary-color: #b1402f;
 $dfm-secondary-color:#f6d4b3;
 $dfm-third-color:white;
 $dfm-fourt-color: #bd6a44;
+$dfm-five-color: #8E2622;
 /*Fonts*/
 $dfm-primary-font: 'Open Sans', sans-serif;//Google
-$dfm-third-font: 'Open Sans Light', serif;
-$dfm-secondary-font: '29LT Makina', serif;//Locale
+//$dfm-third-font: 'Montserrat Alternates', sans-serif;
+//$dfm-secondary-font: '29LT Makina', serif;//Locale
+$dfm-secondary-font: 'Signika Negative', sans-serif;//Locale

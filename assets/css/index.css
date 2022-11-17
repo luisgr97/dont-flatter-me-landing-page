@@ -2,6 +2,7 @@
 /*-----------------------------------Fonts-----------------------------------------------*/
 /*Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Signika+Negative:wght@300;400&display=swap");
 /*custom font*/
 @font-face {
   font-family: "29LT Makina";
@@ -10,7 +11,8 @@
 /*----------------------------------Variables--------------------------------------------*/
 /*Colors*/
 /*Fonts*/
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
@@ -33,7 +35,7 @@ body, html {
   min-height: 300vh;
   min-width: 100vw;
   background: url("../images/hero-image.png") center/cover no-repeat;
-  background-color: rgba(246, 212, 179, 0.5);
+  background-color: rgba(246, 212, 179, 0.4);
   background-blend-mode: overlay;
 }
 
@@ -45,21 +47,23 @@ body, html {
   text-align: center;
   text-overflow: inherit;
   font-size: 12vw;
-  font-family: "29LT Makina", serif;
+  font-family: "Signika Negative", sans-serif;
+  font-weight: bold;
   color: #b1402f;
 }
 
 .dfm-component-sub-title-hero-call-to-action {
   position: relative;
-  top: 110vh;
-  bottom: -110vh;
+  top: 97vh;
+  bottom: -97vh;
   align-content: center;
   text-align: center;
   text-overflow: inherit;
   font-size: 10vw;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #bd6a44;
+  color: #f6d4b3;
+  text-shadow: -1px -1px 0px #8E2622, 1px -1px 0px #8E2622, -1px 1px 0px #8E2622, 1px 1px 0px #8E2622, 2px 2px 3px #8E2622, 3px 3px 2px #8E2622;
 }
 
 /*----------------------------Spacer 1 Style-----------------------------------------*/
@@ -74,7 +78,7 @@ body, html {
   padding: 2rem;
   min-width: 100vw;
   background-color: #f6d4b3;
-  text-align: left;
+  text-align: justify;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
   font-weight: lighter;
@@ -123,7 +127,7 @@ body, html {
 .dfm-que-es-secction-title {
   margin: 1rem;
   text-align: center;
-  font-family: "29LT Makina", serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 2em;
   font-weight: bold;
   color: #b1402f;
@@ -140,7 +144,7 @@ body, html {
   position: relative;
   top: 30vh;
   bottom: -30vh;
-  font-family: "29LT Makina", serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 4em;
   font-weight: bold;
   color: #bd6a44;
@@ -176,6 +180,7 @@ body, html {
 
 #dfm-hero-4-title {
   font-size: 3em !important;
+  margin-top: 8% !important;
 }
 
 .dfm-component-image-cover-call-to-action-4 {
@@ -204,14 +209,15 @@ body, html {
   padding-left: 0;
   padding-right: 0;
   background-color: #b1402f;
-  border-top-right-radius: 8%;
-  border-bottom-right-radius: 8%;
+  border-top-right-radius: 24%;
+  border-bottom-right-radius: 24%;
   color: white;
+  text-align: justify;
 }
 
 .dfm-aliados-name {
-  padding: 1rem;
-  font-family: "29LT Makina", serif;
+  padding: 2% 15%;
+  font-family: "Signika Negative", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: #f6d4b3;
@@ -222,12 +228,15 @@ body, html {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   font-size: 1.2rem;
+  padding: 1% 15%;
 }
 
 .dfm-container-img-aliado {
   position: relative;
-  left: -3vw;
-  right: 10vw;
+  left: -13vw;
+  right: 13vw;
+  bottom: -2vh;
+  top: 2vh;
   text-align: center;
 }
 
@@ -259,7 +268,7 @@ body, html {
 }
 
 .dfm-sobre-mi-secction-info {
-  font-family: "29LT Makina", serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 1.2rem;
   text-align: justify;
   color: #b1402f;
@@ -296,7 +305,7 @@ body, html {
 .dfm-titulo-taller {
   text-align: left;
   color: #b1402f;
-  font-family: "29LT Makina", serif;
+  font-family: "Signika Negative", sans-serif;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -305,7 +314,7 @@ body, html {
   text-align: left;
   color: #b1402f;
   font-family: "Open Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: lighter;
 }
 
@@ -372,6 +381,17 @@ body, html {
 
 .dfm-list-item-contacts {
   list-style: none;
+}
+
+A:hover {
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
 }
 
 /*# sourceMappingURL=index.css.map */
