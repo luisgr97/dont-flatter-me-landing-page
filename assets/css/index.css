@@ -394,4 +394,35 @@ input:focus {
   outline: none !important;
 }
 
+/*--------------------------------------Responsive adjusts -------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  .dfm-component-image-cover-call-to-action-2 {
+    min-width: 50vw;
+    min-height: 50vh;
+  }
+  .dfm-component-image-cover-call-to-action-4 {
+    min-width: auto;
+    min-height: 60vh;
+  }
+  #img-aliado-1 {
+    display: none;
+  }
+  #img-aliado-2 {
+    display: none;
+  }
+  .info-aliados {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .dfm-component-image-cover-call-to-action-2 {
+    min-width: 20vw;
+    min-height: 30vh;
+  }
+  .dfm-component-image-cover-call-to-action-4 {
+    min-width: auto;
+    min-height: 30vh;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
